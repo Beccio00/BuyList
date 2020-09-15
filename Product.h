@@ -29,6 +29,22 @@ public:
         return acquired;
     }
 
+    void setName(const string &name) {
+        Product::name = name;
+    }
+
+    void setType(const string &type) {
+        Product::type = type;
+    }
+
+    void setQuantity(int quantity) {
+        Product::quantity = quantity;
+    }
+
+    void setAcquired(bool acquired) {
+        Product::acquired = acquired;
+    }
+
 private:
     string name;
     string type;

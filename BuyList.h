@@ -17,8 +17,9 @@ public:
 
     void add(Product& p);
 
-    void remove(Product& p);
+    void remove(string& n);
 
+    void modify(string& pr, string ty, int q, bool a);
 
 private:
     map<string, Product*> list;

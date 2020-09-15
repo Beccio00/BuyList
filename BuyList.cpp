@@ -19,8 +19,24 @@ void BuyList::add(Product &p) {
 
 }
 
-void BuyList::remove(Product& p) {
-    list.erase(p.getName());
+void BuyList::remove(string& n) {
+    auto it = list.find(n);
+
+    if(it != list.end()) {
+        total -= it->second->getQuantity();
+        list.erase(it);
+    } else
+        cout << "Elemento non trovato" << endl;
 
 
+}
+
+void BuyList::modify(string &pr, string ty, int q, bool a) {
+    auto it = list.find(pr);
+
+    if(it != list.end()){
+        it->second->setType(ty);
+        it->second->setQuantity(q);
+        it->second->setAcquired(a);
+    }
 }
