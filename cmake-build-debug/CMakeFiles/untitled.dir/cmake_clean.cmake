@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/untitled.dir/BuyList.cpp.o"
   "CMakeFiles/untitled.dir/main.cpp.o"
   "untitled"
   "untitled.pdb"
