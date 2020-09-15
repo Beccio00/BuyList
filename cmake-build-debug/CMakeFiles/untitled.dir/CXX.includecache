@@ -6,7 +6,37 @@
 
 #IncludeRegexTransform: 
 
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/BuyList/BuyList.cpp
+BuyList.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/BuyList/BuyList.h
+
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/BuyList/BuyList.h
+iostream
+-
+Product.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/BuyList/Product.h
+map
+-
+
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/BuyList/Product.h
+iostream
+-
+
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/BuyList/User.cpp
+User.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/BuyList/User.h
+
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/BuyList/User.h
+BuyList.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/BuyList/BuyList.h
+iostream
+-
+list
+-
+
 /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/BuyList/main.cpp
 iostream
 -
+User.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/BuyList/User.h
 

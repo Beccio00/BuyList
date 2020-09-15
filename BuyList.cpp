@@ -4,6 +4,13 @@
 
 #include "BuyList.h"
 
+BuyList::BuyList(map<string, Product *> l) : list(l), total(0) {
+
+    for(auto it : list)
+        total += it.second->getQuantity();
+
+}
+
 void BuyList::add(Product &p) {
     bool inList = false;
     for(auto& it : list){
@@ -19,19 +26,20 @@ void BuyList::add(Product &p) {
 
 }
 
-void BuyList::remove(string& n) {
+void BuyList::remove(string n) {
     auto it = list.find(n);
 
     if(it != list.end()) {
+        cout << "L'elemento " << n << " è stato eliminato" << endl;
         total -= it->second->getQuantity();
         list.erase(it);
     } else
-        cout << "Elemento non trovato" << endl;
+        cout << "L'emento " << n << " non trovato" << endl;
 
 
 }
 
-void BuyList::modify(string &pr, string ty, int q, bool a) {
+void BuyList::modify(string pr, string ty, int q, bool a) {
     auto it = list.find(pr);
 
     if(it != list.end()){
@@ -45,3 +53,5 @@ void BuyList::modify(string &pr, string ty, int q, bool a) {
         it->second->setAcquired(a);
     }
 }
+
+

@@ -13,13 +13,13 @@ using namespace std;
 class BuyList {
 public:
     BuyList() : total(0) {};
-    explicit BuyList(map<string, Product*> l) : list(l), total(0) {};
+    explicit BuyList(map<string, Product*> l);
 
     void add(Product& p);
 
-    void remove(string& n);
+    void remove(string n);
 
-    void modify(string& pr, string ty, int q, bool a);
+    void modify(string pr, string ty, int q, bool a);
 
     int getTotal() const {
         return total;
