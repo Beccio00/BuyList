@@ -36,4 +36,6 @@ int main() {
 
     person.printTotal(&myList2);
 
+    person.removeList(&myList1);
+
 }
