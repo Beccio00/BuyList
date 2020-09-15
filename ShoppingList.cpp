@@ -2,16 +2,16 @@
 // Created by Riccardo Becciolini on 15/09/20.
 //
 
-#include "BuyList.h"
+#include "ShoppingList.h"
 
-BuyList::BuyList(map<string, Product *> l) : list(l), total(0) {
+ShoppingList::ShoppingList(map<string, Product *> l) : list(l), total(0) {
 
     for(auto it : list)
         total += it.second->getQuantity();
 
 }
 
-void BuyList::add(Product &p) {
+void ShoppingList::add(Product &p) {
     bool inList = false;
     for(auto& it : list){
         if(it.first == p.getName()) {
@@ -26,7 +26,7 @@ void BuyList::add(Product &p) {
 
 }
 
-void BuyList::remove(string n) {
+void ShoppingList::remove(string n) {
     auto it = list.find(n);
 
     if(it != list.end()) {
@@ -39,7 +39,7 @@ void BuyList::remove(string n) {
 
 }
 
-void BuyList::modify(string pr, string ty, int q, bool a) {
+void ShoppingList::modify(string pr, string ty, int q, bool a) {
     auto it = list.find(pr);
 
     if(it != list.end()){

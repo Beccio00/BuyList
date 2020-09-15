@@ -143,32 +143,32 @@ untitled/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-BuyList.o: BuyList.cpp.o
+ShoppingList.o: ShoppingList.cpp.o
 
-.PHONY : BuyList.o
+.PHONY : ShoppingList.o
 
 # target to build an object file
-BuyList.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/BuyList.cpp.o
-.PHONY : BuyList.cpp.o
+ShoppingList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/ShoppingList.cpp.o
+.PHONY : ShoppingList.cpp.o
 
-BuyList.i: BuyList.cpp.i
+ShoppingList.i: ShoppingList.cpp.i
 
-.PHONY : BuyList.i
+.PHONY : ShoppingList.i
 
 # target to preprocess a source file
-BuyList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/BuyList.cpp.i
-.PHONY : BuyList.cpp.i
+ShoppingList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/ShoppingList.cpp.i
+.PHONY : ShoppingList.cpp.i
 
-BuyList.s: BuyList.cpp.s
+ShoppingList.s: ShoppingList.cpp.s
 
-.PHONY : BuyList.s
+.PHONY : ShoppingList.s
 
 # target to generate assembly for a file
-BuyList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/BuyList.cpp.s
-.PHONY : BuyList.cpp.s
+ShoppingList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/ShoppingList.cpp.s
+.PHONY : ShoppingList.cpp.s
 
 User.o: User.cpp.o
 
@@ -233,9 +233,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... untitled"
-	@echo "... BuyList.o"
-	@echo "... BuyList.i"
-	@echo "... BuyList.s"
+	@echo "... ShoppingList.o"
+	@echo "... ShoppingList.i"
+	@echo "... ShoppingList.s"
 	@echo "... User.o"
 	@echo "... User.i"
 	@echo "... User.s"

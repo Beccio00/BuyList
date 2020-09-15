@@ -4,7 +4,7 @@
 
 #ifndef UNTITLED_USER_H
 #define UNTITLED_USER_H
-#include "BuyList.h"
+#include "ShoppingList.h"
 #include <iostream>
 #include <list>
 
@@ -13,16 +13,16 @@ using namespace std;
 class User {
 public:
     User() = default;
-    explicit User(list<BuyList*> l) : lists(l) {};
+    explicit User(list<ShoppingList*> l) : lists(l) {};
 
-    void addList(BuyList* b);
+    void addList(ShoppingList* b);
 
-    void removeList(BuyList* b);
+    void removeList(ShoppingList* b);
 
-    void printTotal(BuyList* b);
+    void printTotal(ShoppingList* b);
 
 private:
-    list<BuyList*> lists;
+    list<ShoppingList*> lists;
 
 
 };

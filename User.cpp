@@ -4,15 +4,15 @@
 
 #include "User.h"
 
-void User::addList(BuyList *b) {
+void User::addList(ShoppingList *b) {
     lists.push_back(b);
 }
 
-void User::removeList(BuyList *b) {
+void User::removeList(ShoppingList *b) {
     lists.remove(b);
 }
 
-void User::printTotal(BuyList* b) {
+void User::printTotal(ShoppingList* b) {
     cout << "Articoli da comprare" << b->getTotal() << endl;
 }
 

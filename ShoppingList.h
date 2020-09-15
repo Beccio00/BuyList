@@ -2,18 +2,18 @@
 // Created by Riccardo Becciolini on 15/09/20.
 //
 
-#ifndef UNTITLED_BUYLIST_H
-#define UNTITLED_BUYLIST_H
+#ifndef UNTITLED_SHOPPINGLIST_H
+#define UNTITLED_SHOPPINGLIST_H
 #include <iostream>
 #include "Product.h"
 #include <map>
 
 using namespace std;
 
-class BuyList {
+class ShoppingList {
 public:
-    BuyList() : total(0) {};
-    explicit BuyList(map<string, Product*> l);
+    ShoppingList() : total(0) {};
+    explicit ShoppingList(map<string, Product*> l);
 
     void add(Product& p);
 
@@ -36,4 +36,4 @@ private:
 };
 
 
-#endif //UNTITLED_BUYLIST_H
+#endif //UNTITLED_SHOPPINGLIST_H

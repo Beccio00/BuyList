@@ -82,13 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/BuyList/BuyList.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/BuyList/BuyList.h">
-			<Option target="untitled"/>
-		</Unit>
 		<Unit filename="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/BuyList/Product.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/BuyList/ShoppingList.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/BuyList/ShoppingList.h">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/BuyList/User.cpp">

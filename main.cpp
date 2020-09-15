@@ -15,8 +15,8 @@ int main() {
     list2.insert(make_pair("ananas", new Product("ananas", "frutta", 1)));
     list2.insert(make_pair("pizza", new Product("pizza", "secondo", 4)));
 
-    BuyList myList1(list1);
-    BuyList myList2(list2);
+    ShoppingList myList1(list1);
+    ShoppingList myList2(list2);
 
     person.addList(&myList1);
     person.addList(&myList2);
