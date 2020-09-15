@@ -13,6 +13,6 @@ void User::removeList(ShoppingList *b) {
 }
 
 void User::printTotal(ShoppingList* b) {
-    cout << "Articoli da comprare" << b->getTotal() << endl;
+    cout << "Articoli da comprare: " << b->getTotal() << endl;
 }
 
