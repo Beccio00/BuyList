@@ -12,14 +12,14 @@ ShoppingList::ShoppingList(map<string, Product *> l) : list(l), total(0) {
 }
 
 void ShoppingList::add(Product &p) {
-    bool inList = false;
+    bool tmp = false;
     for(auto& it : list){
         if(it.first == p.getName()) {
             cout << "L'elemento " << p.getName()<< "  è già nella lista" << endl;
-            inList = true;
+            tmp = true;
         }
     }
-    if(!inList) {
+    if(!tmp) {
         cout << "L'elemento " << p.getName() << " è stato inserito" << endl;
         list.insert(make_pair(p.getName(), &p));
         total += p.getQuantity();
