@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/BuyList/main.cpp
+iostream
+-
+
