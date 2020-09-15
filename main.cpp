@@ -21,6 +21,13 @@ int main() {
     person.addList(&myList1);
     person.addList(&myList2);
 
+    Product fagioli("fagioli", "legumi", 5);
+
+    myList1.add(fagioli);
+
+    myList1.remove("banana");
+
+
     myList1.remove("aragosta");
 
     person.printTotal(&myList2);

@@ -15,11 +15,12 @@ void ShoppingList::add(Product &p) {
     bool inList = false;
     for(auto& it : list){
         if(it.first == p.getName()) {
-            cout << "L'elemento è già nella lista" << endl;
+            cout << "L'elemento " << p.getName()<< "  è già nella lista" << endl;
             inList = true;
         }
     }
     if(!inList) {
+        cout << "L'elemento " << p.getName() << " è stato inserito" << endl;
         list.insert(make_pair(p.getName(), &p));
         total += p.getQuantity();
     }
