@@ -13,6 +13,22 @@ class Product {
 public:
     Product(string n, string t, int q, bool a = false) : name(n), type(t), quantity(q), acquired(a) {};
 
+    const string &getName() const {
+        return name;
+    }
+
+    const string &getType() const {
+        return type;
+    }
+
+    int getQuantity() const {
+        return quantity;
+    }
+
+    bool isAcquired() const {
+        return acquired;
+    }
+
 private:
     string name;
     string type;
