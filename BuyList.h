@@ -12,8 +12,8 @@ using namespace std;
 
 class BuyList {
 public:
-    BuyList() = default;
-    explicit BuyList(map<string, Product*> l) : list(l) {};
+    BuyList() : total(0) {};
+    explicit BuyList(map<string, Product*> l) : list(l), total(0) {};
 
     void add(Product& p);
 
@@ -21,9 +21,17 @@ public:
 
     void modify(string& pr, string ty, int q, bool a);
 
+    int getTotal() const {
+        return total;
+    }
+
+    const map<string, Product *> &getList() const {
+        return list;
+    }
+
 private:
     map<string, Product*> list;
-    int total = 0;
+    int total;
 
 };
 

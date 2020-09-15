@@ -35,6 +35,11 @@ void BuyList::modify(string &pr, string ty, int q, bool a) {
     auto it = list.find(pr);
 
     if(it != list.end()){
+        if(a) {
+            total -= it->second->getQuantity();
+            total += q;
+        }
+
         it->second->setType(ty);
         it->second->setQuantity(q);
         it->second->setAcquired(a);
